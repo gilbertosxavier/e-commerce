@@ -39,18 +39,23 @@ function handleAddCartItem (product: ProductProps){
 
                     {products.map((product)=>(
 
-                    <section className=" w-full " key={product.id} >
-                        <img 
-                        className=" w-full rounded-lg max-h-72 mb-2 "
-                        src="https://m.media-amazon.com/images/I/41uS5ZSX9yL.__AC_SX300_SY300_QL70_ML2_.jpg" 
-                        alt={product.title} 
-                        />
+                    <section className=" w-full flex flex-col gap-2 shadow-[0px_0px_31px_5px_#c4c4c4] p-4 rounded-md" key={product.id} >
+                        <div className=" flex-1">
+                            <img 
+                            className=" w-full rounded-lg max-h-72"
+                            src={product.cover} 
+                            alt={product.title} 
+                            /> 
+                        </div>
 
+
+
+                        <div className=" flex-1 flex flex-col items-center  justify-end " >
                         <p className=" font-medium mt-1 mb-2 " >
                             {product.title}
                         </p>
 
-                        <div className=" flex items-center gap-3 " >
+                        <div className="flex items-center justify-center gap-3">
                             <strong>
                                 {product.price.toLocaleString("pt-br", {
                                     style:"currency",
@@ -63,6 +68,8 @@ function handleAddCartItem (product: ProductProps){
                             className="  bg-zinc-900 p-1 rounded " >
                                 <BsCartPlus size={20} color="#ffffff" />
                             </button>
+                        </div>
+
                         </div>
 
                     </section> 
