@@ -9,11 +9,11 @@ export function Header () {
     const  { cartAmount }  = useContext(CartContext)
 
     return(
-        <header className="w-full px-1 bg-slate-200">
-            <nav className="w-full h-14 max-w-7xl flex items-center justify-between px-5 mx-auto" >
-                <Link to="/"  className="font-black text-2xl" > VendAqui!</Link>
+        <header className="w-full px-1 bg-[#82bddd]">
+            <nav className="w-full h-18 max-w-7xl flex items-center justify-between px-5 mx-auto" >
+                <Link to="/"  className="font-bold text-3xl " > DevCommerce</Link>
                 <Link to="/cart" className="relative" > 
-                    <FiShoppingCart size={24} color="#121212"/>
+                    <FiShoppingCart size={24} color="#000000"/>
                     { cartAmount > 0 && (
                     <span className=" absolute -right-3 -top-3 px-2.5 bg-sky-600 rounded-full w-6 h-6 flex items-center justify-center text-white text-xs" >
                         {cartAmount}

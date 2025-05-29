@@ -71,18 +71,18 @@ export function Product (){
 
 
         <div className="w-full h-[90vh] flex items-center justify-center"  >
-            <section className=" w-full max-w-7xl h-10/12 flex items-center justify-center gap-4 mx-auto py-6 ">
+            <section className=" w-full max-w-7xl h-10/12 flex flex-col md:flex-row items-center justify-center gap-4 mx-auto py-6 ">
                     <div className=" flex-1">
                         <img  
-                            className=" w-8/12 mx-auto"
+                            className=" w-11/12 md:w-10/12 mx-auto"
                             src={product?.cover} 
                             alt={product?.title} 
                         />
                         </div>
 
                     <div className=" flex-1 h-full flex flex-col justify-center gap-4 px-3">
-                        <h1 className=" font-bold text-3xl ">{product?.title}</h1>
-                        <p className=" font-medium my-2  text-lg">
+                        <h1 className=" font-bold text-3xl text-center ">{product?.title}</h1>
+                        <p className=" font-medium my-2 text-lg text-justify">
                             {product?.description}
                         </p>
 

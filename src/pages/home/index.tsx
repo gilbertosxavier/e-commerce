@@ -42,7 +42,7 @@ function handleAddCartItem (product: ProductProps){
     return(
         <div>
             <main className=" w-full max-w-7xl px-4 mx-auto " >
-                <h1 className="font-bold text-2xl mb-4 mt-10 text-center" >Produtos em alta</h1>
+                <h1 className="font-bold text-3xl mb-4 mt-10 text-center" >Produtos em alta</h1>
 
                 <div className="  grid grid-cols-1 gap-6 sm:grid-cols-3 lg:grid-cols-5 " >
 
@@ -52,7 +52,7 @@ function handleAddCartItem (product: ProductProps){
                         <div className=" flex-1">
                             <Link to={`/product/${product.id}`} >
                                 <img 
-                                    className=" w-full rounded-lg max-h-72 hover:scale-105  transition-all "
+                                    className=" w-9/12 md:w-11/12 mx-auto hover:scale-105  transition-all "
                                     src={product.cover} 
                                     alt={product.title} 
                                 /> 

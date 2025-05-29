@@ -25,10 +25,10 @@ export function Cart () {
 
             {cart.map((item)=>(
                 <section  key={item.id} 
-                className=" flex items-center justify-between py-2 border-b-2 border-gray-300 " >
+                className=" flex items-center justify-between gap-3 py-2 border-b-2 border-gray-300 " >
 
                 <img 
-                    className="w-28"
+                    className="w-20 md:w-28"
                     src={item.cover} 
                     alt={item.title}
                 />
@@ -38,17 +38,17 @@ export function Cart () {
                     currency:"BRL"
                 })}</strong>
 
-                <div className=" flex items-center justify-center gap-3 " >
-                    <button onClick={()=> removeItemCart(item)}  className=" bg-slate-600 px-2 rounded text-white font-medium flex items-center justify-center " >
+                <div className=" flex items-center justify-center gap-2 " >
+                    <button onClick={()=> removeItemCart(item)}  className=" bg-slate-600 px-2 rounded text-white font-medium flex items-center justify-center cursor-pointer" >
                         -
                     </button>
                     {item.amount}
-                    <button onClick={()=> addItemCart(item)}  className=" bg-slate-600 px-1 rounded text-white font-medium flex items-center justify-center " >
+                    <button onClick={()=> addItemCart(item)}  className=" bg-slate-600 px-[6px] rounded text-white font-medium flex items-center justify-center cursor-pointer" >
                         +
                     </button>
                 </div>
 
-                <strong className=" float-right" >
+                <strong className=" float-right text-right px-2" >
                     Subtotal: {item.total.toLocaleString("pt-br", {
                         style:"currency",
                         currency:"BRL"
