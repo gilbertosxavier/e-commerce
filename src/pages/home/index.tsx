@@ -1,5 +1,6 @@
 
-import { useEffect, useState, useContext } from "react"
+import { useEffect, useState, useContext, } from "react"
+import { Link } from "react-router";
 import { BsCartPlus } from "react-icons/bs"
 import { api } from "../../services/api"
 import { CartContext } from "../../contexts/CartContext";
@@ -28,10 +29,10 @@ useEffect(()=>{
 
 
 function handleAddCartItem (product: ProductProps){
-    toast.success("Produto acdicionado ao carrinho!", {
+    toast.success("Produto adicionado ao carrinho!", {
         style:{
             borderRadius: 8,
-            backgroundColor:"#c4c4c4",
+            backgroundColor:"#121212",
             color:"#ffffff"
         }
     })
@@ -49,11 +50,14 @@ function handleAddCartItem (product: ProductProps){
 
                     <section className=" w-full flex flex-col gap-2 shadow-[0px_0px_31px_5px_#c4c4c4] p-4 rounded-md" key={product.id} >
                         <div className=" flex-1">
-                            <img 
-                            className=" w-full rounded-lg max-h-72"
-                            src={product.cover} 
-                            alt={product.title} 
-                            /> 
+                            <Link to={`/product/${product.id}`} >
+                                <img 
+                                    className=" w-full rounded-lg max-h-72 hover:scale-105  transition-all "
+                                    src={product.cover} 
+                                    alt={product.title} 
+                                /> 
+                            </Link>
+
                         </div>
 
 
@@ -64,7 +68,7 @@ function handleAddCartItem (product: ProductProps){
                         </p>
 
                         <div className="flex items-center justify-center gap-3">
-                            <strong>
+                            <strong className="" >
                                 {product.price.toLocaleString("pt-br", {
                                     style:"currency",
                                     currency:"BRL"
@@ -73,7 +77,7 @@ function handleAddCartItem (product: ProductProps){
 
                             <button 
                             onClick={()=>handleAddCartItem(product)}
-                            className="  bg-zinc-900 p-1 rounded " >
+                                className="bg-zinc-900 p-2 rounded hover:scale-110 transition-all hover:bg-zinc-700 cursor-pointer" >
                                 <BsCartPlus size={20} color="#ffffff" />
                             </button>
                         </div>
