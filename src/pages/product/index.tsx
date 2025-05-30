@@ -70,11 +70,11 @@ export function Product (){
     return(
 
 
-        <div className="w-full h-[90vh] flex items-center justify-center"  >
+        <div className="w-full h-auto flex items-center justify-center mt-20"  >
             <section className=" w-full max-w-7xl h-10/12 flex flex-col md:flex-row items-center justify-center gap-4 mx-auto py-6 ">
-                    <div className=" flex-1">
+                    <div className=" flex-1 ">
                         <img  
-                            className=" w-11/12 md:w-10/12 mx-auto"
+                            className=" w-full max-w-lg h-auto mx-auto object-cover"
                             src={product?.cover} 
                             alt={product?.title} 
                         />

@@ -8,7 +8,7 @@ export function Cart () {
 
 
     return(
-        <div className=" w-full  max-w-7xl mx-auto " >
+        <div className=" w-full  max-w-7xl mx-auto mt-20 " >
             <h1 className=" font-medium text-2xl text-center my-4 " >Carrinho</h1>
 
 

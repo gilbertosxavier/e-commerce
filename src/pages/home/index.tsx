@@ -41,7 +41,7 @@ function handleAddCartItem (product: ProductProps){
 
     return(
         <div>
-            <main className=" w-full max-w-7xl px-4 mx-auto " >
+            <main className=" w-full max-w-7xl px-4 mx-auto  mt-20" >
                 <h1 className="font-bold text-3xl mb-4 mt-10 text-center" >Produtos em alta</h1>
 
                 <div className="  grid grid-cols-1 gap-6 sm:grid-cols-3 lg:grid-cols-5 " >
