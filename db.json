@@ -2,213 +2,73 @@
   "products": [
     { 
       "id": 1, 
-      "title": "Headset Gamer Logitech G733 LIGHTSPEED", 
-      "description": "Headset sem fio com tecnologia LIGHTSPEED, drivers PRO-G de 40mm e iluminação RGB LIGHTSYNC. Ideal para jogos com som cristalino e conforto duradouro.", 
-      "price": 649.99, 
-      "cover": "https://m.media-amazon.com/images/I/71RSZdY7pJL.__AC_SX300_SY300_QL70_ML2_.jpg"
+      "title": "Airpods Apple, com Estojo de Recarga, Bluetooth", 
+      "description": "Airpods Apple, com Estojo de Recarga, Bluetooth, Branco\nO Novo AirPods traz uma experiência nova em usar fones de ouvido sem fio. É só tirá-los do estojo e estão prontos para uso com seu iPhone, Apple Watch, iPad ou Mac. Ele oferece cinco horas de som e três horas para conversar com apenas uma carga. Eles acompanham seu ritmo graças ao estojo que proporciona várias cargas adicionais para mais de 24 horas de uso." ,
+      "price":120,
+      "cover": "https://i.imgur.com/uXrbyfA.jpg"
     },
     { 
       "id": 2, 
-     "title": "Placa-Mãe ASUS TUF Gaming B550M-Plus", 
-      "description": "Placa-mãe para processadores Ryzen, com suporte a PCIe 4.0, áudio de alta definição e proteção TUF para maior durabilidade.", 
-      "price": 799.99, 
-      "cover": "https://m.media-amazon.com/images/I/81mjtZOzG0L.__AC_SX300_SY300_QL70_ML2_.jpg"
+      "title": "Notebook Gamer Lenovo Gaming 3i Intel Core i5-11300H", 
+      "description": "Lenovo ideapad Gaming 3i\nNovo design com 11ª Geração de Processadores Intel Core i5-11300H e placa de vídeo NVIDIA GeForce GTX 1650 4GB. Ideal para gamers e usuários que também precisam de alta performance. Com tela de 15.6'' Full HD WVA Antirreflexo para melhor definição de imagem e cores. O armanezamento SSD PCIe NVMe é 10x mais rápido* que um HDD 2.5” SATA, você terá mais segurança ao armazenar seus dados. O teclado retroiluminado em LED branco, deixa o computador mais atraente e também favorece a performance para jogos em lugares com pouca iluminação.",
+      "price": 379.9,
+      "cover": "https://i.imgur.com/bM5IUKe.jpg"
     },
     { 
       "id": 3, 
-      "title": "Placa de Vídeo NVIDIA GeForce RTX 4060 Ti", 
-      "description": "GPU poderosa para jogos em Full HD e QHD, com tecnologia DLSS 3, Ray Tracing de última geração e 8GB GDDR6 de memória dedicada.", 
-      "price": 2299.99, 
-      "cover": "https://images0.kabum.com.br/produtos/fotos/501560/placa-de-video-rtx-4060-ti-rog-strix-o8g-gaming-8gb-gddr6-argb-dlss-ray-tracing-g-sync-rog-strix-rtx4060ti-o8g-gaming_1703702308_g.jpg"
+      "title": "Teclado Mecânico Gamer HyperX Alloy", 
+      "description": "Teclado HyperX Alloy MKW100, HKBM1-R-EUA/G - 4P5E1AA#ABA\nObtenha uma iluminação radiante e por tecla com efeitos dinâmicos para adicionar um toque de estilo ao seu setup de PC. Estrutura em alumínio durável\nCom uma estrutura de alumínio sólida, o Alloy MKW100 foi projetado para fornecer estabilidade quando os toques em teclas estiverem a todo vapor. O descanso para pulso removível ajuda a reduzir a fadiga de longas sessões de jogos ou de trabalho.",
+      "price": 199.99,
+      "cover": "https://i.imgur.com/ldh1Q8O.jpg"
     },
     { 
       "id": 4, 
-      "title": "Monitor LG UltraGear 27'' QHD 165Hz", 
-      "description": "Monitor gamer de 27 polegadas com resolução QHD, taxa de atualização de 165Hz e tempo de resposta de 1ms. Tecnologia AMD FreeSync Premium.", 
-      "price": 1799.99, 
-      "cover": "https://www.lg.com/content/dam/channel/wcms/pt/monitores/lg-com-pt-2024/ultragear-27gr75q-pt-lg-com/gallery/DZ-1.jpg/_jcr_content/renditions/thum-1600x1062.jpeg"
+      "title": "Monitor Gamer Husky Tempest 34", 
+      "description": "O Monitor Gamer Husky Gaming Tempest LED 34 UltraWide Curvo traz a experiência de imersão completa para o seus jogos! A tela Curva UltraWide, formato 21:9, e Quad HD (QHD), com taxa de atualização de 144Hz, confere maior campo de visão e amplifica a experiência de imersão durante seus jogos.",
+      "price": 2099.99,
+      "cover": "https://i.imgur.com/sRmbcWW.jpeg"
     },
     { 
       "id": 5, 
-      "title": "Mouse Gamer Razer DeathAdder V2", 
-      "description": "Mouse ergonômico com sensor óptico de 20.000 DPI, switches mecânicos e iluminação RGB Chroma. Perfeito para sessões intensas de jogos.", 
-      "price": 299.99, 
-      "cover": "https://m.media-amazon.com/images/I/8189uwDnMkL._AC_SX522_.jpg"
+      "title": "Soundbar LG SNH5, 4.1 Canais, Bluetooth, 600W RMS", 
+      "description": "O LG Sound Bar SNH5 uniu-se ao DTS Virtual:X para transformar sua casa em um verdadeiro cinema e deixar a exibição dos seus filmes favoritos muito mais imersiva. O LG Sound Bar SNH5 suporta saída para 4.1 canais para que você possa assistir à TV com um som mais envolvente.",
+      "price": 1099.99,
+      "cover": "https://i.imgur.com/w7SeQsa.jpg"
     },
     { 
       "id": 6, 
-      "title": "Notebook Acer Aspire 5 A515-57-52YV", 
-      "description": "Notebook com Intel Core i5-1235U, 8GB RAM, SSD 512GB e tela Full HD. Ideal para produtividade e estudos com performance superior.", 
-      "price": 2899.99, 
-      "cover": "https://m.media-amazon.com/images/I/51cj43d2FUL._AC_SX522_.jpg"
+      "title": "Smartwatch Samsung Galaxy Watch 5, BT, 40mm", 
+      "description": "O smartwatch que oferece o mais completo conjunto de funções de monitoramento para o acompanhamento da Saúde e do Bem-Estar de uma maneira precisa e confiável. Possui os recursos essenciais e mais avançados para medir e acompanhar o estado da sua Saúde, funções como monitor de Batimento Cardíaco, Pressão Arterial, Eletrocardiograma, Oxímetro, Detecção de Queda e Chamada de Emergência, programa de Coaching do Sono para monitorar e melhorar a qualidade do seu Sono , além da Bioimpedância para avaliar a composição corporal de maneira rápida e interativa, e verificar a evolução os resultados dos exercícios refletidos no seu corpo. Possui uma série de funções avançadas de treinos com mais de 95 modalidades. ",
+      "price": 1139.00,
+      "cover": "https://i.imgur.com/Ua4bURp.jpg"
     },
     { 
       "id": 7, 
-      "title": "Gabinete Gamer Cooler Master MB511 ARGB", 
-      "description": "Gabinete mid tower com painéis em mesh e três ventoinhas ARGB pré-instaladas. Compatível com radiadores de até 360mm para refrigeração líquida.", 
-      "price": 469.99, 
-      "cover": "https://m.media-amazon.com/images/I/91eewu-UsKL.__AC_SX300_SY300_QL70_ML2_.jpg"
+      "title": "Headset Gamer ", 
+      "description": "Headset sem fio com tecnologia LIGHTSPEED, drivers PRO-G de 40mm e iluminação RGB LIGHTSYNC. Ideal para jogos com som cristalino e conforto duradouro.", 
+      "price": 649.99, 
+      "cover": "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     { 
       "id": 8, 
-      "title": "Fonte Corsair CV650, 650W, 80 Plus Bronze", 
-      "description": "Fonte de alimentação confiável com certificação 80 PLUS Bronze, ideal para builds gamers de entrada e intermediárias. Operação silenciosa.", 
-      "price": 399.99, 
-      "cover": "https://m.media-amazon.com/images/I/81eLlIQ5PsL.__AC_SX300_SY300_QL70_ML2_.jpg"
+      "title": "Placa Mae Asus TUF Gaming Z590 PLUS WI-FI DDR4 Socket LGA1200 Intel Z590", 
+      "description": "A placa-mãe ASUS TUF Gaming Z590-PLUS WIFI é projetada para jogadores, oferecendo uma combinação de durabilidade, desempenho e recursos. Ela é compatível com processadores Intel Core de 10ª e 11ª geração, possui um sistema de refrigeração aprimorado, conectividade de última geração e recursos de áudio de alta qualidade. ", 
+      "price": 799.99, 
+      "cover": "https://images.unsplash.com/photo-1712701815718-29f5fe510c0e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     { 
       "id": 9, 
-      "title": "Memória RAM Corsair Vengeance LPX 16GB (2x8GB) DDR4", 
-      "description": "Kit dual channel com alta performance, frequência de 3200MHz e dissipadores de calor de perfil baixo. Ideal para jogos e multitarefas.", 
-      "price": 429.99, 
-      "cover": "https://m.media-amazon.com/images/I/61wCOVcyvFL._AC_SX679_.jpg"
+      "title": "Placa de Vídeo NVIDIA GeForce RTX 2060 ", 
+      "description": "GPU poderosa para jogos em Full HD e QHD, com tecnologia DLSS 3, Ray Tracing de última geração e 8GB GDDR6 de memória dedicada.", 
+      "price": 2299.99, 
+      "cover": "https://images.unsplash.com/photo-1555618568-bdf0a992c512?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-    { 
+    {
       "id": 10, 
-      "title": "Processador AMD Ryzen 5 5600X", 
-      "description": "Processador com 6 núcleos e 12 threads, ideal para jogos e produtividade. Frequência base de 3.7GHz e boost até 4.6GHz.", 
-      "price": 999.99, 
-      "cover": "https://m.media-amazon.com/images/I/51ld6RR8IrL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 11, 
-      "title": "Placa-Mãe ASUS TUF Gaming B550M-Plus", 
-      "description": "Placa-mãe para processadores Ryzen, com suporte a PCIe 4.0, áudio de alta definição e proteção TUF para maior durabilidade.", 
-      "price": 799.99, 
-      "cover": "https://m.media-amazon.com/images/I/81mjtZOzG0L.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 12, 
-      "title": "Water Cooler Cooler Master MasterLiquid ML240L V2 ARGB", 
-      "description": "Sistema de refrigeração líquida com radiador de 240mm, iluminação ARGB e ventoinhas silenciosas. Ideal para overclocking moderado.", 
-      "price": 599.99, 
-      "cover": "https://m.media-amazon.com/images/I/61XvU+auwZL._AC_SY300_SX300_.jpg"
-    },
-    { 
-      "id": 13, 
-      "title": "Mousepad Gamer Redragon P003 Suzaku", 
-      "description": "Mousepad extra grande (80x30cm) com base antiderrapante e superfície de tecido para precisão nos movimentos.", 
-      "price": 89.99, 
-      "cover": "https://m.media-amazon.com/images/I/5111lkeOWjL._AC_SY355_.jpg"
-    },
-    { 
-      "id": 14, 
-      "title": "Cadeira Gamer ThunderX3 BC3", 
-      "description": "Cadeira ergonômica com estofamento de espuma de alta densidade, revestimento em couro sintético e ajuste de inclinação até 180°.", 
-      "price": 1099.99, 
-      "cover": "https://m.media-amazon.com/images/I/71VqjPlOJAL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 15, 
-      "title": "Teclado Mecânico Redragon Kumara K552 RGB", 
-      "description": "Teclado compacto TKL com switches Outemu Blue, retroiluminação RGB e estrutura em aço para maior durabilidade.", 
-      "price": 219.99, 
-      "cover": "https://m.media-amazon.com/images/I/51aZ6eBk7LL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 16, 
-      "title": "Hub USB 3.0 com 4 Portas", 
-      "description": "Hub compacto com 4 portas USB 3.0 para expansão rápida de conectividade. Taxa de transferência de até 5Gbps.", 
-      "price": 59.99, 
-      "cover": "https://m.media-amazon.com/images/I/51dRPTWsVkL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 17, 
-      "title": "Webcam Logitech C920S Pro Full HD", 
-      "description": "Webcam com resolução Full HD 1080p, microfone estéreo embutido e tampa de privacidade. Ideal para videochamadas e streaming.", 
-      "price": 449.99, 
-      "cover": "https://m.media-amazon.com/images/I/61SCZyiMSNL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 18, 
-      "title": "Switch TP-Link TL-SG105", 
-      "description": "Switch de rede Gigabit com 5 portas RJ45. Design metálico e sem necessidade de configuração. Ideal para ambientes domésticos ou escritórios.", 
-      "price": 129.99, 
-      "cover": "https://m.media-amazon.com/images/I/71C646qzDnL.__AC_SY300_SX300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 19, 
-      "title": "Impressora Multifuncional HP Ink Tank 416", 
-      "description": "Impressora tanque de tinta com conexão Wi-Fi, impressão econômica e qualidade profissional. Ideal para residências e pequenos escritórios.", 
-      "price": 849.99, 
-      "cover": "https://m.media-amazon.com/images/I/61GItOdtlBL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 20, 
-      "title": "Roteador TP-Link Archer AX10 AX1500", 
-      "description": "Roteador Wi-Fi 6 (802.11ax) com velocidades combinadas de até 1.5Gbps, processador triple-core e quatro antenas externas.", 
-      "price": 379.99, 
-      "cover": "https://m.media-amazon.com/images/I/61-50f0Z7iL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 21, 
-      "title": "Fone de Ouvido JBL Quantum 400", 
-      "description": "Headset gamer com som JBL Quantum Surround, microfone com cancelamento de ruído e compatibilidade com várias plataformas.", 
-      "price": 499.99, 
-      "cover": "https://m.media-amazon.com/images/I/61qLk2Lz41L.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 22, 
-      "title": "Scanner de Documentos Epson Perfection V39", 
-      "description": "Scanner compacto de mesa com resolução óptica de 4800 dpi, ideal para digitalização de documentos e fotos com alta qualidade.", 
-      "price": 529.99, 
-      "cover": "https://m.media-amazon.com/images/I/71cV59d0gOL.__AC_SY300_SX300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 23, 
-      "title": "Cooler CPU Deepcool Gammaxx 400 V2", 
-      "description": "Cooler a ar com ventoinha de 120mm, iluminação LED e 4 heatpipes para excelente dissipação térmica.", 
-      "price": 159.99, 
-      "cover": "https://m.media-amazon.com/images/I/411J6-A5gxL._SY445_SX342_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 24, 
-      "title": "Pendrive Sandisk Ultra Flair 128GB", 
-      "description": "Pendrive com interface USB 3.0 para transferência rápida de arquivos, design metálico e capacidade de 128GB.", 
-      "price": 55.90, 
-      "cover": "https://m.media-amazon.com/images/I/61DjwgS4cbL._AC_SX679_.jpg"
-    },
-    { 
-      "id": 25, 
-      "title": "Leitor de Cartões USB 3.0 Multilaser", 
-      "description": "Leitor portátil compatível com diversos formatos de cartões SD e microSD. Alta velocidade de transferência via USB 3.0.", 
-      "price": 49.99, 
-      "cover": "https://m.media-amazon.com/images/I/6155TeibrLL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 26, 
-      "title": "Estabilizador TS Shara PowerEst 300VA", 
-      "description": "Estabilizador bivolt com 4 tomadas de saída, proteção contra sobrecarga e picos de energia. Ideal para proteger equipamentos de informática.", 
-      "price": 189.99, 
-      "cover": "https://m.media-amazon.com/images/I/51DVXzmeZrL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 27, 
-      "title": "Nobreak SMS Station II 700VA", 
-      "description": "Nobreak com 6 tomadas de saída, proteção contra surtos e autonomia de até 30 minutos para equipamentos essenciais.", 
-      "price": 599.99, 
-      "cover": "https://m.media-amazon.com/images/I/51GQfST1-7L.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 28, 
-      "title": "Controle Xbox Series X|S Wireless", 
-      "description": "Controle sem fio com ergonomia aprimorada, textura antideslizante e botão de compartilhamento rápido. Compatível com Windows e consoles Xbox.", 
-      "price": 459.99, 
-      "cover": "https://m.media-amazon.com/images/I/61qX3f8v5kL.__AC_SX300_SY300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 29, 
-      "title": "SSD Externo Samsung T7 Shield 1TB", 
-      "description": "SSD portátil com resistência a água e poeira (IP65), velocidade de até 1050MB/s e conexão USB-C. Ideal para transporte seguro de arquivos.", 
-      "price": 649.99, 
-      "cover": "https://m.media-amazon.com/images/I/61CKrZWOcrL.__AC_SY300_SX300_QL70_ML2_.jpg"
-    },
-    { 
-      "id": 30, 
-      "title": "Dock Station Ugreen USB-C 9 em 1", 
-      "description": "Dock multifuncional com HDMI 4K, USB 3.0, leitor de cartão SD, Ethernet e PD 100W. Perfeito para ampliar conexões de notebooks.", 
-      "price": 349.99, 
-      "cover": "https://m.media-amazon.com/images/I/610-QPDqK+L._AC_SX300_SY300_.jpg"
+      "title": "Gabinete Gamer MB511 ARGB", 
+      "description": "Gabinete mid tower com painéis em mesh e três ventoinhas ARGB pré-instaladas. Compatível com radiadores de até 360mm para refrigeração líquida.", 
+      "price": 469.99, 
+      "cover": "https://cdn.pixabay.com/photo/2015/03/21/19/27/pc-684125_1280.jpg"
     }
   ]
 }
