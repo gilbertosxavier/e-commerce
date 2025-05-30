@@ -1,4 +1,4 @@
-import { Children, createContext,type ReactNode , useState } from "react";
+import { createContext,type ReactNode , useState } from "react";
 import { type ProductProps } from "../pages/home";
 
 interface CartContextData {
