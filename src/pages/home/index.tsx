@@ -2,12 +2,13 @@
 import { useEffect, useState, useContext, } from "react"
 import { Link } from "react-router";
 import { BsCartPlus } from "react-icons/bs"
-import { api } from "../../services/api"
+import { fetchProducts } from "../../services/firebaseApi"
 import { CartContext } from "../../contexts/CartContext";
 import toast from "react-hot-toast";
 
+
 export interface ProductProps{
-    id: number;
+    id: string;
     title: string;
     description: string;
     price: number;
@@ -19,9 +20,12 @@ export function Home () {
     const [products, setProducts] = useState<ProductProps[]>([]);
 
 useEffect(()=>{
+
+
+
     async function getProducts(){
-        const response = await api.get("products")
-        setProducts(response.data)
+        const response = await fetchProducts()
+        setProducts(response)
     }
 
     getProducts();

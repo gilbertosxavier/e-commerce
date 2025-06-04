@@ -1,10 +1,10 @@
 import { BsCartPlus } from "react-icons/bs";
 import { useParams , useNavigate} from "react-router";
-import { api } from "../../services/api";
 import { useContext, useEffect, useState } from "react";
 import { type ProductProps } from "../home";
 import { CartContext } from "../../contexts/CartContext";
 import toast from "react-hot-toast";
+import { fetchProduct } from "../../services/firebaseApi";
 
 
 export function Product (){
@@ -19,10 +19,18 @@ export function Product (){
 
     useEffect(()=>{
         async function getProduct() {
+
+            if(!id){
+                toast.error("ID do produto não foi encontrado, Você será redirecionado para a página inicial.");
+                navigate("/");
+                 return
+            }
+
             setLoading(true);
             try{
-                const response = await api.get(`/products/${id}`)
-                setProduct(response.data)
+                const response = await fetchProduct(id)
+                console.log(response)
+                setProduct(response)
                 setLoading(false)
             } catch(error){
                 console.log("ERRO AO BUSCAR DADOS: ", error);
