@@ -1,54 +1,78 @@
-# React + TypeScript + Vite
+# DevCommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ E-commerce fictício apenas para fins acadêmicos e de aprendizado.
+ Foi desenvolvido com **Vite**, **React**, **TypeScript**, **Tailwind CSS** e **Firebase**.  
+ Acesse o projeto em produção aqui: [DevCommerce](https://dev-commerce-dun.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visão geral
 
-## Expanding the ESLint configuration
+O DevCommerce é um app de loja virtual desenvolvido com React. Ele lista produtos buscados a partir de um banco de dados no Firebase, permite navegação entre páginas de produtos e carrinho de compras.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Este repositório serve como base acadêmica e demonstra conceitos como:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Configuração de projeto com Vite;
+- Estilização com Tailwind CSS;
+- Criação de interfaces reativas com React e tipagem segura em TypeScript;
+- Navegação SPA com React Router;
+- Gerenciamento de estado;
+- Consumo de dados do Firebase;
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tecnologias
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- ***Vite*** – Para desenvolvimento rápido e eficiente.
+- ***React*** – Criar interfaces interativas e dinâmicas de forma eficiente;
+- ***TypeScript*** – Adicionar tipagem estática melhorando segurança, produtividade e escalabilidade;
+- ***Tailwind*** – Estilização rápida e eficiente;
+- ***Firebase Firestore*** – Banco de dados NoSQL em nuvem flexível e escalável;
+- ***React Router** – Criar aplicações *SPA* com navegação amigável e sem recarregamento de página
+- ***React Toast*** e ***React Icons*** – Bibliotécas para melhorar a experiência do usuário;
+  
+---
+
+##  Screenshots
+
+Algumas capturas de tela para ilustrar diferentes estados do aplicativo:
+
+
+### Página inicial
+
+
+![Página Inicial](./images/home.png)
+
+
+### Página Produto:
+
+
+![Produto](./images/produto.png)
+
+
+## Carrinho de compras:
+
+
+![Página Carrinho](./images/carrinho.png)
+
+
+
+---
+
+## Melhorias e próximos passos
+
+- Implementar autenticação com Firebase Auth (login/registro)
+- Integração com APIs de pagamento (ex: Stripe)
+- Painel de administração para gerenciamento de produtos
+- Filtros por categoria, preço e avaliação
+- Testes unitários com Jest ou Vitest
+
+---
+
+##  Contato
+
+Construído por **Gilberto Xavier**.
+
+[LinkedIn](https://www.linkedin.com/in/gilbertosx/)
+
+[Email](mailto:gilbertosxavier@live.com)
